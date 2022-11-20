@@ -1,0 +1,748 @@
+.category-form-3 .form-title {
+	background-color: #2b6db4;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.category-form-3{
+    margin-top: 0;
+    position: relative;
+    z-index: 5;
+}
+
+.category-form-3 .form-title h3 {
+	color: #07294d;
+}
+.category-form-3 .form-title span {
+    font-weight: 600;
+}
+.category-form-3 .main-btn{
+    color: #07294d;
+}
+.category-form-3 .main-btn:hover{
+    color: #fff;
+    background-color: #2b6db4;
+    border-color: #07294d;
+}
+
+
+.main-btn {
+	display: inline-block;
+	font-weight: 500;
+	text-align: center;
+	white-space: nowrap;
+	vertical-align: middle;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+	border: 1px solid #5347be;
+	padding: 0 35px;
+	font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+	line-height: 50px;
+	border-radius: 5px;
+    color: #05192e;
+    cursor: pointer;
+    position: relative;
+    overflow: hidden;
+    z-index: 5;
+    -webkit-transition: 0.4s ease-in-out;
+    transition: 0.4s ease-in-out;
+    background-color: #fff;
+}
+.main-btn:hover{
+    color: #fff;
+    border-color: #032242;
+    background-color: #2b6db4;
+}
+
+.count-down-cont h2{
+    font-size: 48px;
+    color: #fff;
+    font-weight: 700;
+    padding-bottom: 37px;
+}
+
+/*=====================================================
+    13. FOOTER css 
+======================================================*/
+
+.footer-top{
+    background-color: #07294d;
+}
+
+.footer-about {
+	padding-right: 50px;
+}
+.footer-about p{
+    color: #fff;
+    padding-top: 15px;
+}
+.footer-about ul li{
+    display: inline-block;
+    margin-right: 15px;
+}
+.footer-about ul li:last-child{
+    margin-right: 0;
+}
+
+.footer-about ul li a{
+    width: 35px;
+    line-height: 35px;
+    font-size: 15px;
+    color: #fff;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #5a6a6e;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    
+}
+.footer-about ul li a:hover{
+    background-color: #007bff;
+    color: #F0F0F0;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    
+}
+
+
+.footer-title h6{
+    font-size: 18px;
+    color: #fff;
+}
+
+.footer-link{
+    overflow: hidden;
+}
+.footer-link ul{
+    width: 50%;
+    float: left;
+    overflow: hidden;
+}
+.footer-link ul li{
+    line-height: 35px;
+}
+.footer-link ul li a{
+    color: #fff;
+    font-size: 15px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.footer-link ul li a i{
+    margin-right: 8px;
+    color: #007bff;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.footer-link ul li a:hover {
+    color: #00519A;
+}
+.footer-link ul li a:hover i{
+    margin-right: 15px;
+}
+
+.support ul{
+    float: none;
+    width: 100%;
+}
+
+.footer-address ul li{
+    position: relative;
+    margin-bottom: 10px;
+}
+.footer-address ul li:last-child{
+    margin-bottom: 0;
+}
+
+.footer-address ul li .icon i{
+    font-size: 18px;
+    color: #007bff;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+.footer-address ul li .cont{
+    padding-left: 35px;
+}
+.footer-address ul li .cont p{
+    color: #fff;
+}
+
+.footer-copyright{
+    background-color: #021d3a;
+}
+.footer-copyright .copyright p{
+    color: #fff;
+}
+.footer-copyright .copyright p span{
+    font-weight: 600;
+}
+
+.back-to-top{
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    width: 40px;
+    height: 40px;
+    line-height: 35px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 28px;
+    border-radius: 5px;
+    z-index: 99;
+    text-align: center;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    display: none;
+}
+.back-to-top:hover{
+    color: #fff;
+    background-color: #021d3a;
+}
+
+
+/*=====================================================
+    16. COUNTER css 
+======================================================*/
+
+.singel-counter{
+    position: relative;
+    z-index: 5;
+}
+.singel-counter span{
+    font-size: 36px;
+    color: #2b6db4;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.singel-counter p{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 15px;
+}
+
+/*===== Index-3 =====*/
+
+.counter-3 p{
+    color: #07294d;
+    font-weight: 600;
+}
+
+/*=====================================================
+    18. EVENT 2 css 
+======================================================*/
+
+.event-bg{
+    position: relative;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.event-bg::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: -webkit-gradient(linear, left top, right top, from(rgba(7,41,77,0.3)),color-stop(10%, rgba(7,41,77,0.3)),to(rgba(7,41,77,1)));
+    background: linear-gradient(to right, rgba(7,41,77,0.3) 0%,rgba(7,41,77,0.3) 10%,rgba(7,41,77,1) 100%); 
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4d07294d', endColorstr='#07294d',GradientType=1 ); 
+}
+
+.event-2 .event-title h3 {
+	font-size: 36px;
+	color: #fff;
+	padding-bottom: 5px;
+}
+
+.event-2 ul li .singel-event {
+	padding: 25px 0;
+	border-bottom: 1px solid #cecece;
+}
+.event-2 ul li:last-child .singel-event {
+	border-bottom: 0;
+}
+.event-2 ul li .singel-event span {
+	font-size: 14px;
+	color: #fff;
+	margin-right: 20px;
+}
+.event-2 ul li .singel-event span i {
+	color: #32c3e7;
+	margin-right: 3px;
+}
+.event-2 ul li .singel-event a {
+	display: block;
+}
+
+.event-2 ul li .singel-event a h4 {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	color: #fff;
+	font-size: 24px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.event-2 ul li .singel-event a:hover h4 {
+    color: #76afec;
+}
+
+/*=====================================================
+    20. PAGE BANNER  css 
+======================================================*/
+
+.page-banner-cont{
+    position: relative;
+    z-index: 5;
+}
+.page-banner-cont h2{
+    font-size: 52px;
+    color: #fff;
+    padding-bottom: 15px;
+}
+.page-banner-cont .breadcrumb{
+    margin: 0;
+    background: none;
+    padding: 0;
+}
+.page-banner-cont .breadcrumb .breadcrumb-item {
+	color: #007bff;
+	font-size: 18px;
+	font-weight: 600;
+	margin-bottom: 2px;
+}
+.page-banner-cont .breadcrumb .breadcrumb-item a{
+    color: #fff;
+}
+.page-banner-cont .breadcrumb-item + .breadcrumb-item::before {
+	color: #fff;
+	content: "/";
+    font-size: 18px;
+}
+
+/*=====================================================
+    14. CATEGORY 2 css 
+======================================================*/
+
+.category-2-items .singel-items .items-cont h5:hover{
+    color: #0099ff;
+}
+
+.category-2-items .singel-items .items-image::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #07294d99;
+    border-radius: 5px;
+}
+
+
+
+/* =====================navigatio menu customized yose================== */
+
+/*===== Header Menu =====*/
+
+.navigation{}
+
+.navigation.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: #fff;
+	z-index: 999;
+    border-bottom: 1px solid #cecece;
+    -webkit-box-shadow: 0px 0px 191px 0px rgba(0,0,0,0.06);
+    box-shadow: 0px 0px 191px 0px rgba(0,0,0,0.06);
+    -webkit-animation: sticky 2s;
+    animation: sticky 2s;
+}
+
+@-webkit-keyframes sticky {
+    0%{
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+    100%{
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%)
+    }
+}
+
+@keyframes sticky {
+    0%{
+        -webkit-transform: translateY(-100%);
+        transform: translateY(-100%)
+    }
+    100%{
+        -webkit-transform: translateY(0%);
+        transform: translateY(0%)
+    }
+}
+
+.navigation .navbar{
+    padding: 0;
+}
+
+.navigation .navbar .navbar-nav{}
+.navigation .navbar .navbar-nav li{
+    margin-right: 40px;
+    position: relative;
+}
+.navigation .navbar .navbar-nav li:last-child{
+    margin-right: 0;
+}
+
+.navigation .navbar .navbar-nav li a{   /* change on sticky movement*/
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    color: rgba(7, 41, 77, 0.8); 
+    text-transform: uppercase;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    padding: 16px 0;
+}
+
+.navigation .navbar .navbar-nav > li > a.active,
+.navigation .navbar .navbar-nav > li > a:hover{
+    color: #32c3e7;
+}
+
+.navigation .navbar .navbar-nav li .sub-menu{
+    position: absolute;
+    top: 110%;
+    left: 0;
+    background-color: #07294d;
+    width: 200px;
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+    z-index: 99;
+}
+.navigation .navbar .navbar-nav li:hover .sub-menu{
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
+}
+
+.navigation .navbar .navbar-nav li .sub-menu li{
+    margin-right: 0;
+}
+.navigation .navbar .navbar-nav li .sub-menu li a{
+    padding: 10px 15px;
+    display: block;
+    border-bottom: 1px solid rgba(255, 198, 0, 0.5);
+    color: #fff;
+}
+.navigation .navbar .navbar-nav li .sub-menu li a.active,
+.navigation .navbar .navbar-nav li .sub-menu li a:hover{
+    padding-left: 20px;
+    color: #32c3e7;
+}
+
+.sub-nav-toggler{
+    display: none;
+}
+
+.navigation .navbar .navbar-nav li .sub-menu li:last-child a{
+    border-bottom: 0;
+}
+
+.navbar .navbar-toggler {
+	padding: 3px 8px;
+	margin: 18px 0;
+     -webkit-transform: all 0.4s linear;
+    transform: all 0.4s linear;
+}
+
+.navbar .navbar-toggler .icon-bar {
+	width: 30px;
+	height: 2px;
+	background-color: #07294d;
+	display: block;
+	margin: 5px 0;
+    position: relative;
+     -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.navbar .navbar-toggler.active .icon-bar:nth-of-type(1){
+    -webkit-transform: rotate(46deg);
+    transform: rotate(46deg);
+    top: 7px;
+}
+.navbar .navbar-toggler.active .icon-bar:nth-of-type(2){
+    opacity: 0;
+}
+.navbar .navbar-toggler.active .icon-bar:nth-of-type(3){
+    -webkit-transform: rotate(134deg);
+    transform: rotate(134deg);
+    top: -7px;
+}
+
+
+.navigation-3.sticky .navbar .navbar-nav > li > a.active,
+.navigation-3.sticky .navbar .navbar-nav > li > a:hover{
+    color: #2b6db4;
+}
+
+
+
+
+/*=====================================================
+    27. BLOG PAGE css 
+======================================================*/
+
+
+.singel-blog .blog-cont ul li a i{
+    color: #1163bb;
+    margin-right: 5px;
+}
+
+.singel-blog .blog-cont h3{
+    font-size: 24px;
+    color: #000;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+
+.blog-details .cont ul li a i{
+    color: #1163bb;
+    margin-right: 5px;
+}
+
+.blog-details .cont h3 {
+	font-size: 24px;
+	color: #000;
+	-webkit-transition: all 0.4s linear;
+	transition: all 0.4s linear;
+}
+
+.singel-blog .blog-cont a:hover h3{
+    color: #1163bb;
+}
+
+.courses-pagination .pagination .page-item a.active,
+.courses-pagination .pagination .page-item a:hover{
+    background-color: #fff;
+    border-color: #1163bb;
+}
+
+
+
+
+.saidbar .categories{
+    background-color: #fff;
+    padding: 30px 35px 25px;
+    border-radius: 5px;
+}
+.saidbar .categories h4,
+.saidbar .saidbar-post h4{
+    font-size: 24px;
+    color: #1163bb;
+}
+.saidbar .categories ul{
+    padding-top: 15px;
+}
+.saidbar .categories ul li{
+    line-height: 40px;
+}
+.saidbar .categories ul li a{
+    color: #8a8a8a;
+    font-weight: 15;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.saidbar .categories ul li a:hover{
+    color: #1163bb;
+}
+
+.saidbar .saidbar-post{
+    padding: 30px 35px 35px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+.saidbar .saidbar-post ul{
+    padding-top: 10px;
+}
+.saidbar .saidbar-post ul li a{
+    display: block;
+    margin-top: 30px;
+}
+.saidbar .saidbar-post ul li a .singel-post{
+    overflow: hidden;
+}
+.saidbar .saidbar-post ul li a .singel-post .thum{
+    float: left;
+    padding-right: 20px;
+}
+.saidbar .saidbar-post ul li a .singel-post .thum img{
+    border-radius: 5px;
+}
+
+.saidbar .saidbar-post ul li a .singel-post .cont{}
+.saidbar .saidbar-post ul li a .singel-post .cont h6{
+    font-weight: 600;
+    font-size: 16px;
+    color: #000;
+    padding-bottom: 10px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.saidbar .saidbar-post ul li a .singel-post .cont h6:hover{
+    color: #1163bb;
+}
+
+.saidbar .saidbar-post ul li a .singel-post .cont span{
+    font-size: 14px;
+    color: #8a8a8a;
+}
+
+
+/*=====================================================
+    24. EVENT PAGE css 
+======================================================*/
+
+
+.events-area{
+    background-color: #fff;
+    padding: 45px 50px;
+}
+.events-left{}
+.events-left h3{
+    padding-top: 5px;
+	padding-bottom: 10px;
+	color: #000;
+	font-size: 30px;
+}
+.events-left  span {
+	font-size: 14px;
+	color: #8a8a8a;
+	margin-right: 20px;
+}
+
+.events-left span i {
+	color: #1163bb;
+	margin-right: 3px;
+}
+
+.events-left img {
+    margin-top: 35px;
+    border-radius: 5px;
+}
+.events-left p{
+    padding-top: 31px;
+}
+
+
+
+.events-address{
+    border: 1px solid #bcbcbc;
+    padding: 0 30px 30px;
+    border-radius: 5px;
+}
+.events-address ul li{
+    padding-top: 20px;
+}
+.events-address ul li .singel-address{
+    position: relative;
+}
+.events-address ul li .singel-address .icon{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.events-address ul li .singel-address .icon i{
+    font-size: 15px;
+    color: #1163bb;
+}
+.events-address ul li .singel-address .cont{
+    padding-left: 23px;
+}
+.events-address ul li .singel-address .cont h6{
+    font-size: 15px;
+    color: #07294d;
+}
+.events-address ul li .singel-address .cont span{
+    font-size: 14px;
+    color: #505050;
+}
+
+#contact-map{
+    width: 100%;
+    height: 150px;
+    border-radius: 5px;
+}
+
+/*=====================================================
+    24. EVENT PAGE css 
+======================================================*/
+
+.singel-event-list{
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 5px;
+    display: -moz-flex;
+    display: -ms-flex;
+    display: -o-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-align-items: flex-start;
+    -webkit-box-align: start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+}
+
+.singel-event-list .event-thum {
+	width: 38%;
+}
+.singel-event-list .event-thum img{
+    width: 100%;
+    border-radius: 5px;
+}
+.singel-event-list .event-cont {
+	width: 62%;
+    padding-left: 30px;
+}
+
+.singel-event-list .event-cont span {
+	font-size: 14px;
+	color: #8a8a8a;
+	margin-right: 20px;
+}
+.singel-event-list .event-cont span i {
+	color: #007bff;
+	margin-right: 3px;
+}
+.singel-event-list .event-cont a {
+	display: block;
+}
+.singel-event-list .event-cont a h4 {
+	padding-top: 5px;
+	padding-bottom: 10px;
+	color: #000;
+	font-size: 20px;
+    -webkit-transition: all 0.4s linear;
+    transition: all 0.4s linear;
+}
+.singel-event-list .event-cont a:hover h4 {
+    color: #007bff;
+}
+
+
+
+
+
+
+
